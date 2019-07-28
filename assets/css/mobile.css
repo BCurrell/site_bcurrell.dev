@@ -1,0 +1,17 @@
+#content
+{
+	width: 90%;
+}
+
+#where
+{
+    float: none;
+}
+
+.centre-screen
+{
+    position: static;
+    transform: none;
+
+    margin: 50px auto;
+}
