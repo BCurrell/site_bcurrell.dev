@@ -1,0 +1,27 @@
+/*
+Background and block colors
+*/
+$color_background: #F5F4F2;
+$color_base: #6A586B;
+$color_accent: #D9A5B3;
+$color_card: #EDEAE7;
+$color_border: #B2A6B3;
+
+// Possibly replace this with a darken() call
+$color_button_hover: #C5A98F;
+
+/*
+Text colors
+*/
+$color_text: #2B2A2A;
+$color_link: #6B8E9B;
+
+body {
+    background-color: $color_background;
+}
+
+header {
+    background-color: $color_base;
+    padding: 20px;
+    text-align: center;
+}
