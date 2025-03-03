@@ -1,18 +1,44 @@
-/*
-Background and block colors
-*/
-/*
-Text colors
-*/
+* {
+  color: #D3D0D4;
+}
+
 body {
-  background-color: #F5F4F2;
-  color: #2B2A2A;
+  background-color: #866f87;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
 header {
   padding: 20px;
   background-color: #6A586B;
-  color: #D9A5B3;
+  color: #ffffff;
   text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+  background-color: #6A586B;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #6A586B;
+}
+
+a {
+  color: #D4AF37;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */

@@ -1,30 +1,52 @@
-/*
-Background and block colors
-*/
-$color_background: #F5F4F2;
 $color_base: #6A586B;
-$color_accent: #D9A5B3;
-$color_card: #EDEAE7;
-$color_border: #B2A6B3;
+$color_background: lighten($color_base, 10%);
+$color_text_1: #ffffff;
+$color_text_2: #D3D0D4;
+$color_accent_1: #D4AF37;
+// TODO: Change this, doesn't contrast well
+$color_accent_2: #4B8B8C;
 
-// Possibly replace this with a darken() call
-$color_button_hover: #C5A98F;
-
-/*
-Text colors
-*/
-$color_text: #2B2A2A;
-$color_link: #6B8E9B;
+* {
+    color: $color_text_2;
+}
 
 body {
     background-color: $color_background;
-    color: $color_text;
+    color: $color_text_1;
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
+@mixin header-footer {
     padding: 20px;
     background-color: $color_base;
-    color: $color_accent;
+    color: $color_text_1;
     text-align: center;
+    font-weight: bold;
+}
+
+header {
+    @include header-footer();
+}
+
+footer {
+    @include header-footer();
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $color_text_1;
+}
+
+.card {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: $color_base;
+}
+
+a {
+    color: $color_accent_1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
