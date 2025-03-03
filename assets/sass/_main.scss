@@ -18,10 +18,13 @@ $color_link: #6B8E9B;
 
 body {
     background-color: $color_background;
+    color: $color_text;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
-    background-color: $color_base;
     padding: 20px;
+    background-color: $color_base;
+    color: $color_accent;
     text-align: center;
 }

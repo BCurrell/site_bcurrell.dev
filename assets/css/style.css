@@ -6,10 +6,13 @@ Text colors
 */
 body {
   background-color: #F5F4F2;
+  color: #2B2A2A;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-  background-color: #6A586B;
   padding: 20px;
+  background-color: #6A586B;
+  color: #D9A5B3;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
